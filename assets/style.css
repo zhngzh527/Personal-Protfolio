@@ -12,7 +12,7 @@ h3 {
 }
 
 h1 {
-    background-color: #4aaaa5;
+    background-color: #8abb28;
     color: #ffffff;
     font-size: 1.6em;
     font-weight: bold;
@@ -20,6 +20,11 @@ h1 {
     height: 97px;
     padding: auto;
     line-height: 90px;
+}
+
+h2,h3 {
+    color: #8abb28;
+    font-size:larger
 }
 
 p {
@@ -36,7 +41,7 @@ header {
     margin-left: auto;
     padding-bottom: 10px;
     background-color: #ffffff;
-    border-bottom: #cccccc solid 3px;
+    border-bottom: #cccccc solid 5px;
 }
 
 .header-inner {
@@ -60,14 +65,13 @@ header {
 }
 
 .main-nav a {
-    border: none;
     display: inline-block;
     margin: 25px 15px;
-    text-decoration: none;
     height: auto;
     width: auto;
     line-height: 48px;
     font-weight: normal;
+    color: #777;
 }
 
 .middle {
@@ -133,4 +137,65 @@ aside {
     width: 60px;
     height: 60px;
     
+}
+
+footer {
+    background-color: #666666;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    text-align: center;
+    border-top: #8abb28 solid 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 70px;
+    color: #ffffff;
+}
+form {
+    margin: 10px 30px;
+}
+
+input,
+textarea {
+    display: block;
+    margin: 8px 0 20px 0;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    color: #777777;
+    border: #dddddd solid 1px;
+}
+
+input:focus,
+textarea:focus {
+    border: #8abb28 solid 1px;
+}
+
+textarea {
+    min-width: 100%;
+}
+
+label {
+    font-weight: normal;
+}
+button {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color:#8abb28;
+    color: #ffffff;
+    border: none;
 }
