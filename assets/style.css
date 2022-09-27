@@ -1,3 +1,4 @@
+/* CSS for index.html and contact.html */
 body {
     height: 100%;
     position:relative;
@@ -160,6 +161,7 @@ footer p {
     line-height: 70px;
     color: #ffffff;
 }
+/* CSS only for contact.html */
 form {
     margin: 10px 30px;
 }
@@ -199,6 +201,8 @@ button {
     color: #ffffff;
     border: none;
 }
+/* different responsive layout on various screens and devices */
+
 @media screen and (max-width: 970px) {
     body,
     main,
